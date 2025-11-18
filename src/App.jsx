@@ -65,7 +65,6 @@ export default function App() {
         };
     }, [text, userName]);
 
-    // FORMAT TIMESTAMP TO HH:MM FOR MESSAGES
     function formatTime(ts) {
         const d = new Date(ts);
         const hh = String(d.getHours()).padStart(2, '0');
